@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "My-second-demo",
+  "productName": "My-second-demo",
+  "description": "My lovely Vue project",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single"
+  },
+  "author": {
+    "name": "Luis Herrera",
+    "email": "herreradepura7@gmail.com"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "promise-polyfill": "^6.0.2",
+    "vue-moment": "^3.2.0"
+  },
+  "devDependencies": {
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "serve": "^6.1.0"
+  }
+}
